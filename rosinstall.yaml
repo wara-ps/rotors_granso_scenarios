@@ -70,4 +70,4 @@
     uri: https://github.com/john-tornblom/mav_voxblox_planning.git
 - git:
     local-name: rotors_granso_scenarios
-    uri: https://gitlab.liu.se/johto84/rotors_simulator.git
+    uri: https://gitlab.liu.se/johto84/rotors_granso_scenarios.git
