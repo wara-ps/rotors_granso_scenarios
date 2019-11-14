@@ -26,7 +26,7 @@ Install precompiled dependencies:
 Fetch and compile source-based dependencies:
 ```console
     $ mkdir -p ws/src
-    $ wget https://git.io/JerVa -O ws/src/.rosinstall
+    $ wget https://git.io/Jerwk -O ws/src/.rosinstall
     $ wstool update -t ws/src
     $ catkin build --workspace ws
 ```
