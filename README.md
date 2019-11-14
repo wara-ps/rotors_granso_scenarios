@@ -34,7 +34,7 @@ Fetch and compile source-based dependencies:
 Run Scenario:
 ```console
     $ source ws/devel/setup.bash
-    $ roslaunch mav_local_planner firefly_sim.launch
+    $ roslaunch rotors_granso_scenarios hovering.launch
 ```
 
 ## Reporting Bugs
