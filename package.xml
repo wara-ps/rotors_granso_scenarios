@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rotors_granso_scenarios</name>
+  <version>0.0.1</version>
+  <description>The rotors_granso_scenarios package</description>
+  <maintainer email="john.tornblom@liu.se">John Törnblom</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>rotors_description</exec_depend>
+  <exec_depend>rotors_gazebo</exec_depend>
+
+
+  <export>
+  </export>
+</package>
