@@ -26,8 +26,7 @@ Install precompiled dependencies:
 Fetch and compile source-based dependencies:
 ```console
     $ mkdir -p ws/src
-    $ wget https://gitlab.liu.se/johto84/rotors_granso_scenarios/raw/master/rosinstall.yaml \
-           -O ws/src/.rosinstall
+    $ wget https://git.io/JerVz -O ws/src/.rosinstall
     $ wstool update -t ws/src
     $ catkin build --workspace ws
 ```
