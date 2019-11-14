@@ -29,7 +29,7 @@ Fetch and compile source-based dependencies:
     $ wget https://gitlab.liu.se/johto84/rotors_granso_scenarios/raw/master/rosinstall.yaml \
            -O ws/src/.rosinstall
     $ wstool update -t ws/src
-    $ catkin build --workspace ws rotors_simulator mav_voxblox_planning
+    $ catkin build --workspace ws
 ```
 Run Scenario:
 ```console
