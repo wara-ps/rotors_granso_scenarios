@@ -51,5 +51,7 @@
   </group>
 
   <include file="$(find mav_local_planner)/launch/firefly_mapping_planning.launch"/>
+  <include file="$(find voxblox_rrt_planner)/launch/firefly_rrt.launch"/>
+  
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rotors_granso_scenarios)/rviz/hovering.rviz" required="true" />
 </launch>
