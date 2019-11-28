@@ -3,7 +3,8 @@ Panels:
     Help Height: 103
     Name: Displays
     Property Tree Widget:
-      Expanded: ~
+      Expanded:
+        - /VoxbloxMesh1
       Splitter Ratio: 0.5
     Tree Height: 167
   - Class: rviz/Selection
@@ -104,6 +105,12 @@ Visualization Manager:
       Normalize Range: true
       Queue Size: 2
       Transport Hint: compressed
+      Unreliable: false
+      Value: true
+    - Class: voxblox_rviz_plugin/VoxbloxMesh
+      Enabled: true
+      Name: VoxbloxMesh
+      Topic: /firefly/voxblox_node/mesh
       Unreliable: false
       Value: true
   Enabled: true
