@@ -11,6 +11,8 @@ import sys
 import rospy as ros
 import geometry_msgs.msg as msg
 
+from tf.transformations import quaternion_from_euler
+
 
 def main(args):
     parser = optparse.OptionParser(usage="%prog [options] x y z yaw")
@@ -41,10 +43,11 @@ def main(args):
     message.pose.position.y = float(args[1])
     message.pose.position.z = float(args[2])
 
-    message.pose.orientation.x = 0.0
-    message.pose.orientation.y = 0.0
-    message.pose.orientation.z = 0.0
-    message.pose.orientation.w = float(args[3])
+    x, y, z, w = quaternion_from_euler(0, 0, float(args[3]))
+    message.pose.orientation.x = x
+    message.pose.orientation.y = y
+    message.pose.orientation.z = z
+    message.pose.orientation.w = w
 
     ros.sleep(1)
     publisher.publish(message)
