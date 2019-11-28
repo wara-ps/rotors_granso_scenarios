@@ -40,14 +40,14 @@ Set waypoint (in new terminal window):
 ```console
     $ source ws/devel/setup.bash
     $ python ws/src/rotors_granso_scenarios/scripts/set_waypoint.py -h
-Usage: set_waypoint.py [options] x y z yaw
+        Usage: set_waypoint.py [options] x y z yaw
 
-Publish a waypoint to a drone
+        Publish a waypoint to a drone
 
-Options:
-  -h, --help  show this help message and exit
-  -n STRING   set namespace to STRING (default to firefly)
-  -c          bypass planner and send waypoint directly to controller
+        Options:
+          -h, --help  show this help message and exit
+          -n STRING   set namespace to STRING (default to firefly)
+          -c          bypass planner and send waypoint directly to controller
 
     $ python ws/src/rotors_granso_scenarios/scripts/set_waypoint.py 55 55 5 310 -c
 ```
