@@ -22,16 +22,23 @@ def main(args):
     parser.add_option('-n', dest='namespace', action='store',
                       metavar='STRING', help='set namespace to STRING (default to firefly)',
                       default='firefly')
+
+    parser.add_option('-c', dest='controller', action='store_true',
+                      metavar='STRING', help='bypass planner and send waypoint directly to controller')
     
     (opts, args) = parser.parse_args(args)
     if len(args) < 4:
         parser.print_help()
         sys.exit(1)
-    
+
+    if opts.controller:
+        topic = '%s/command/pose' % opts.namespace
+    else:
+        topic = '%s/waypoint' % opts.namespace
+        
     ros.init_node('mission_publisher', anonymous=True)
     
-    publisher = ros.Publisher('/%s/waypoint' % opts.namespace, msg.PoseStamped,
-                              queue_size=5)
+    publisher = ros.Publisher(topic, msg.PoseStamped, queue_size=5)
 
     message = msg.PoseStamped()
 
