@@ -4,7 +4,7 @@
 '''
 Publish a waypoint to a drone
 '''
-
+import math
 import optparse
 import sys
 
@@ -50,7 +50,7 @@ def main(args):
     message.pose.position.y = float(args[1])
     message.pose.position.z = float(args[2])
 
-    x, y, z, w = quaternion_from_euler(0, 0, float(args[3]))
+    x, y, z, w = quaternion_from_euler(0, 0, float(args[3])*math.pi/180)
     message.pose.orientation.x = x
     message.pose.orientation.y = y
     message.pose.orientation.z = z

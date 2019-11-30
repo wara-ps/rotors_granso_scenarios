@@ -4,7 +4,7 @@
 '''
 Publish a goal to a drone
 '''
-
+import math
 import optparse
 import sys
 
@@ -53,7 +53,7 @@ class DroneAgent:
         goal.pose.position.y = y
         goal.pose.position.z = z
 
-        x, y, z, w = quaternion_from_euler(0, 0, z)
+        x, y, z, w = quaternion_from_euler(0, 0, z*math.pi/180)
         goal.pose.orientation.x = x
         goal.pose.orientation.y = y
         goal.pose.orientation.z = z
