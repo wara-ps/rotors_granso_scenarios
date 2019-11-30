@@ -3,7 +3,18 @@
   <world name="default">
     <gui>
       <camera name="user_camera">
-        <pose>-10.23 14.5 19.2 0 0.73 -1.43</pose>
+	<!--
+	<track_visual>
+          <name>firefly</name>
+          <static>true</static>
+          <use_model_frame>true</use_model_frame>
+          <xyz>-10 -10 10</xyz>
+          <inherit_yaw>true</inherit_yaw>
+	</track_visual>
+	-->
+	
+	<pose>63 37 13 0 0.27 1.8</pose>
+	
       </camera>
     </gui>
     <scene>
