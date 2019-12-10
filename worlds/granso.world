@@ -6,9 +6,9 @@
 	<!--
 	<track_visual>
           <name>firefly</name>
-          <static>true</static>
+          <static>false</static>
           <use_model_frame>true</use_model_frame>
-          <xyz>-10 -10 10</xyz>
+          <xyz>-15 -15 15</xyz>
           <inherit_yaw>true</inherit_yaw>
 	</track_visual>
 	-->
