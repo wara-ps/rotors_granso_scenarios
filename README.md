@@ -33,25 +33,9 @@ Fetch and compile source-based dependencies:
 Launch Simulation:
 ```console
     $ source ws/devel/setup.bash
-    $ roslaunch rotors_granso_scenarios hovering.launch
+    $ roslaunch rotors_granso_scenarios circle_house.launch
 ```
-
-Set waypoint (in new terminal window):
-```console
-    $ source ws/devel/setup.bash
-    $ python ws/src/rotors_granso_scenarios/scripts/set_waypoint.py -h
-        Usage: set_waypoint.py [options] x y z yaw
-
-        Publish a waypoint to a drone
-
-        Options:
-          -h, --help  show this help message and exit
-          -n STRING   set namespace to STRING (default to firefly)
-          -c          bypass planner and send waypoint directly to controller
-
-    $ python ws/src/rotors_granso_scenarios/scripts/set_waypoint.py 55 55 5 310 -c
-```
-
+Wait for about 30 seconds before the drone starts to move arround the house.
 
 ## Reporting Bugs
 TBD
