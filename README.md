@@ -33,7 +33,8 @@ Fetch and compile source-based dependencies:
 Launch Simulation:
 ```console
     $ source ws/devel/setup.bash
-    $ roslaunch rotors_granso_scenarios circle_house.launch
+    $ roslaunch rotors_granso_scenarios waypoints.launch \
+        waypoints:=$(rospack find rotors_granso_scenarios)/waypoints/high_altitude.txt
 ```
 Wait for about 30 seconds before the drone starts to move arround the house.
 
