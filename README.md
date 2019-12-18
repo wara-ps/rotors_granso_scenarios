@@ -38,11 +38,7 @@ Launch Simulation:
 ```
 Wait for about 30 seconds before the drone starts to move arround.
 
-<figure class="video_container">
-  <video>
-    <source src="videos/high_altitude.mp4" type="video/mp4">
-  </video>
-</figure>
+![Sample Video](videos/high_altitude.mp4)
 
 ## Reporting Bugs
 TBD
