@@ -21,7 +21,7 @@ Install precompiled dependencies:
     $ sudo apt-get install python-wstool python-catkin-tools protobuf-compiler \
                            libgoogle-glog-dev liblapacke-dev ros-melodic-octomap-ros \
                            ros-melodic-ompl ros-melodic-mavros ros-melodic-joy \
-                           ros-melodic-mavlink
+                           ros-melodic-mavlink ros-melodic-vrx-gazebo
 ```
 Fetch and compile source-based dependencies:
 ```console

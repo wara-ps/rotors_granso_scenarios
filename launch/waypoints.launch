@@ -23,7 +23,7 @@
       <arg name="log_file" value="$(arg mav_name)"/>
       <arg name="x" value="55.0"/>
       <arg name="y" value="55.0"/>
-      <arg name="z" value="5"/>
+      <arg name="z" value="7"/>
     </include>
     
     <node name="mav_nonlinear_mpc" pkg="mav_nonlinear_mpc" type="nonlinear_mpc_node" respawn="true" clear_params="true" output="screen" >
@@ -43,7 +43,7 @@
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
     <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
     <node pkg="tf" type="static_transform_publisher" name="world_odom_broadcaster" args="0 0 0 0 0 0 1 world odom 100" />
-    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="55 55 5 0 0"/>
+    <node name="waypoint_publisher" pkg="rotors_gazebo" type="waypoint_publisher" output="screen" args="55 55 7 0 0"/>
     <node name="waypoint_publisher_file" pkg="rotors_gazebo" type="waypoint_publisher_file" output="screen"
 	  args="$(arg waypoints)"/>
     
