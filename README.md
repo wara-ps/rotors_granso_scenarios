@@ -26,18 +26,22 @@ Install precompiled dependencies:
 Fetch and compile source-based dependencies:
 ```console
     $ mkdir -p ws/src
-    $ wget https://git.io/Jerwk -O ws/src/.rosinstall
+    $ wget https://git.io/JvU5N -O ws/src/.rosinstall
     $ wstool update -t ws/src
-    $ catkin build --workspace ws
+    $ catkin build --workspace ws rotors_granso_scenarios
 ```
 Launch Simulation:
 ```console
     $ source ws/devel/setup.bash
-    $ roslaunch rotors_granso_scenarios quad_above_boat.launch
+    $ roslaunch rotors_granso_scenarios mav_above_boat.launch
 ```
 Wait for about 30 seconds before the drone starts to move arround.
 
 ![Sample Video](videos/waves_quad_boat.mp4)
+
+## Known Issues
+- Visuals in Gazebo appears dark when running on PCs with Intel or AMD GPUs.
+- Sometimes, simulation simply does not start and Gazebo is just black. Restarting siulation often solves the problem.
 
 ## Reporting Bugs
 TBD
