@@ -41,7 +41,7 @@ Wait for about 30 seconds before the drone starts to move arround.
 
 ## Known Issues
 - Visuals in Gazebo appears dark when running on PCs with Intel or AMD GPUs.
-- Sometimes, simulation simply does not start and Gazebo is just black. Restarting siulation often solves the problem.
+- Sometimes, simulation simply does not start and Gazebo is just black. Restarting simulation often solves the problem.
 
 ## Reporting Bugs
 TBD
