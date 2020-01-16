@@ -4,7 +4,7 @@
   <arg name="enable_ground_truth" default="true"/>
   <arg name="mav_name" default="firefly" />
   <arg name="frame_id" default="odom" />
-  <arg name="waypoints" default="$(find rotors_granso_scenarios)/waypoints/quad_above_boat.txt" />
+  <arg name="waypoints" default="$(find rotors_granso_scenarios)/waypoints/mav_above_boat.txt" />
 
 
   <env name="GAZEBO_MODEL_PATH" value="$(find vrx_gazebo)/models:$(find wamv_gazebo)/models:$(find wamv_description)/models:$(optenv GAZEBO_MODEL_PATH)"/>

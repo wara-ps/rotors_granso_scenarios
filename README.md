@@ -37,7 +37,7 @@ Launch Simulation:
 ```
 Wait for about 30 seconds before the drone starts to move arround.
 
-![Sample Video](videos/waves_quad_boat.mp4)
+![Sample Video](videos/mav_above_boat.mp4)
 
 ## Known Issues
 - Visuals in Gazebo appears dark when running on PCs with Intel or AMD GPUs.
