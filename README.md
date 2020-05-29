@@ -26,7 +26,7 @@ Install precompiled dependencies:
 Fetch and compile source-based dependencies:
 ```console
     $ mkdir -p ws/src
-    $ wget https://git.io/JvU5N -O ws/src/.rosinstall
+    $ wget https://raw.githubusercontent.com/wara-ps/rotors_granso_scenarios/master/rosinstall.yaml -O ws/src/.rosinstall
     $ wstool update -t ws/src
     $ catkin build --workspace ws rotors_granso_scenarios
 ```
