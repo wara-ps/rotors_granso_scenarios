@@ -11,8 +11,6 @@ john@localhost:~$ sudo apt install ros-melodic-desktop-full
 ```
 Setup ROS environment:
 ```console
-john@localhost:~$ sudo rosdep init
-john@localhost:~$ rosdep update
 john@localhost:~$ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 john@localhost:~$ source /opt/ros/melodic/setup.bash
 ```
@@ -21,7 +19,7 @@ Install precompiled dependencies:
 john@localhost:~$ sudo apt-get install python-wstool python-catkin-tools protobuf-compiler \
                                libgoogle-glog-dev liblapacke-dev ros-melodic-octomap-ros \
                                ros-melodic-ompl ros-melodic-mavros ros-melodic-joy \
-                               ros-melodic-mavlink ros-melodic-vrx-gazebo
+                               ros-melodic-mavlink ros-melodic-vrx-gazebo ros-melodic-mav-msgs
 ```
 Fetch and compile source-based dependencies:
 ```console
@@ -37,8 +35,8 @@ john@localhost:~$ roslaunch rotors_granso_scenarios mav_above_boat.launch
 ```
 Wait for about 30 seconds before the drone starts to move arround.
 
-![Watch sample video][sample].
-
+![Preview of sample][preview]
+![Download sample video][sample].
 
 ## Known Issues
 - Compilation may sometimes fail due to insufficient amount of memory (8GB or more is recommended). Restarting the compilation often solves the problem.
@@ -57,3 +55,4 @@ Source code contained within this project is published under the [Apache 2.0 lic
 [xubuntu]: http://ftp.lysator.liu.se/ubuntu-dvd/xubuntu/releases/18.04.4/release/xubuntu-18.04.4-desktop-amd64.iso
 [apl2]: https://www.apache.org/licenses/LICENSE-2.0
 [sample]: https://github.com/wara-ps/rotors_granso_scenarios/raw/master/videos/mav_above_boat.mp4
+[preview]: https://github.com/wara-ps/rotors_granso_scenarios/raw/master/videos/mav_above_boat.png
