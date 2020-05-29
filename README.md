@@ -36,6 +36,7 @@ john@localhost:~$ roslaunch rotors_granso_scenarios mav_above_boat.launch
 Wait for about 30 seconds before the drone starts to move arround.
 
 ![Preview of sample][preview]
+
 ![Download sample video][sample].
 
 ## Known Issues
