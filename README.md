@@ -36,7 +36,9 @@ john@localhost:~$ source ws/devel/setup.bash
 john@localhost:~$ roslaunch rotors_granso_scenarios mav_above_boat.launch
 ```
 Wait for about 30 seconds before the drone starts to move arround.
-![Watch sample video](https://github.com/wara-ps/rotors_granso_scenarios/blob/master/videos/mav_above_boat.mp4)
+
+![Watch sample video][sample].
+
 
 ## Known Issues
 - Compilation may sometimes fail due to insufficient amount of memory (8GB or more is recommended). Restarting the compilation often solves the problem.
@@ -44,7 +46,7 @@ Wait for about 30 seconds before the drone starts to move arround.
 - Sometimes, simulation simply does not start and Gazebo is just black. Restarting simulation often solves the problem.
 
 ## Reporting Bugs
-If you encounter problems with rotors_granso_scenarios, please [file a github issue][issues].
+If you encounter problems with rotors_granso_scenarios, please [file a github issue](issues).
 If you plan on sending pull requests which affect more than a few lines of code,
 please file an issue before you start to work on you changes. This will allow us
 to discuss the solution properly before you commit time and effort.
@@ -54,3 +56,4 @@ Source code contained within this project is published under the [Apache 2.0 lic
 
 [xubuntu]: http://ftp.lysator.liu.se/ubuntu-dvd/xubuntu/releases/18.04.4/release/xubuntu-18.04.4-desktop-amd64.iso
 [apl2]: https://www.apache.org/licenses/LICENSE-2.0
+[sample]: https://github.com/wara-ps/rotors_granso_scenarios/raw/master/videos/mav_above_boat.mp4
