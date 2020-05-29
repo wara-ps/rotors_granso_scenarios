@@ -28,12 +28,12 @@ john@localhost:~$ wget https://raw.githubusercontent.com/wara-ps/rotors_granso_s
 john@localhost:~$ wstool update -t ws/src
 john@localhost:~$ catkin build --workspace ws rotors_granso_scenarios
 ```
-Launch Simulation:
+Launch simulation:
 ```console
 john@localhost:~$ source ws/devel/setup.bash
 john@localhost:~$ roslaunch rotors_granso_scenarios mav_above_boat.launch
 ```
-Wait for about 30 seconds before the drone starts to move arround.
+Wait for about 30 seconds before the drone starts to move around.
 
 ![Preview of sample][preview]
 
