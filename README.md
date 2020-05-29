@@ -44,7 +44,10 @@ Wait for about 30 seconds before the drone starts to move arround.
 - Sometimes, simulation simply does not start and Gazebo is just black. Restarting simulation often solves the problem.
 
 ## Reporting Bugs
-TBD
+If you encounter problems with rotors_granso_scenarios, please [file a github issue][issues].
+If you plan on sending pull requests which affect more than a few lines of code,
+please file an issue before you start to work on you changes. This will allow us
+to discuss the solution properly before you commit time and effort.
 
 ## License
 Source code contained within this project is published under the [Apache 2.0 license][apl2].
