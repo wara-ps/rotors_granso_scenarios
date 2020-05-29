@@ -47,6 +47,7 @@ Wait for about 30 seconds before the drone starts to move arround.
 TBD
 
 ## License
-TBD
+Source code contained within this project is published under the [Apache 2.0 license][apl2].
 
 [xubuntu]: http://ftp.lysator.liu.se/ubuntu-dvd/xubuntu/releases/18.04/release/xubuntu-18.04-desktop-amd64.iso
+[apl2]: https://www.apache.org/licenses/LICENSE-2.0

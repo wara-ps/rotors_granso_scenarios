@@ -4,7 +4,7 @@
   <version>0.0.1</version>
   <description>The rotors_granso_scenarios package</description>
   <maintainer email="john.tornblom@liu.se">John Törnblom</maintainer>
-  <license>TODO</license>
+  <license>APL 2.0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
 
