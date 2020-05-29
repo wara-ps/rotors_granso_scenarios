@@ -3,6 +3,10 @@ a simulation environment that resembles parts of the environment at
 [Gränsö][granso], an area where the [WASP][wasp] research arena [WARA-PS][waraps]
 regularly holds demonstration events.
 
+![Preview of sample][preview]
+
+![Download sample video][sample].
+
 ## Getting started
 Install one of the Ubuntu 18.04 desktop distribution (e.g. [xubuntu][xubuntu]).
 
@@ -39,10 +43,6 @@ john@localhost:~$ source ws/devel/setup.bash
 john@localhost:~$ roslaunch rotors_granso_scenarios mav_above_boat.launch
 ```
 Wait for about 30 seconds before the drone starts to move around.
-
-![Preview of sample][preview]
-
-![Download sample video][sample].
 
 ## Known Issues
 - Compilation may sometimes fail due to insufficient amount of memory (8GB or more is recommended). Restarting the compilation often solves the problem.
