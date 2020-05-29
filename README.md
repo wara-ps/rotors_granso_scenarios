@@ -39,7 +39,7 @@ Wait for about 30 seconds before the drone starts to move arround.
 ![Watch sample video](https://github.com/wara-ps/rotors_granso_scenarios/blob/master/videos/mav_above_boat.mp4)
 
 ## Known Issues
-- Compilation may sometimes fail due to insufficient amount of memory (GB or more is recommended). Restarting the compilation often solves the problem.
+- Compilation may sometimes fail due to insufficient amount of memory (8GB or more is recommended). Restarting the compilation often solves the problem.
 - Visuals in Gazebo appears dark when running on PCs with Intel or AMD GPUs.
 - Sometimes, simulation simply does not start and Gazebo is just black. Restarting simulation often solves the problem.
 
