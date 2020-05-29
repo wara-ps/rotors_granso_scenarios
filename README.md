@@ -1,6 +1,6 @@
 This project was created to facilitate early validation of prototype research in
 a simulation environment that resembles parts of the environment at
-[Gränsö][granso], an area where the [WASP][wasp] research arena[WARA-PS][waraps]
+[Gränsö][granso], an area where the [WASP][wasp] research arena [WARA-PS][waraps]
 regularly holds demonstration events.
 
 ## Getting started
@@ -64,3 +64,4 @@ Source code contained within this project is published under the [Apache 2.0 lic
 [preview]: https://github.com/wara-ps/rotors_granso_scenarios/raw/master/videos/mav_above_boat.png
 [wasp]: https://wasp-sweden.org
 [waraps]: https://wasp-sweden.org/research/research-arenas/wara-ps-public-safety
+[granso]: https://goo.gl/maps/7RWE7MRtoHTrLb1w5
