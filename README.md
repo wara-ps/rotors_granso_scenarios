@@ -1,3 +1,8 @@
+This project was created to facilitate early validation of prototype research in
+a simulation environment that resembles parts of the environment at
+[Gränsö][granso], an area where the [WASP][wasp] research arena[WARA-PS][waraps]
+regularly holds demonstration events.
+
 ## Getting started
 Install one of the Ubuntu 18.04 desktop distribution (e.g. [xubuntu][xubuntu]).
 
@@ -57,3 +62,5 @@ Source code contained within this project is published under the [Apache 2.0 lic
 [apl2]: https://www.apache.org/licenses/LICENSE-2.0
 [sample]: https://github.com/wara-ps/rotors_granso_scenarios/raw/master/videos/mav_above_boat.mp4
 [preview]: https://github.com/wara-ps/rotors_granso_scenarios/raw/master/videos/mav_above_boat.png
+[wasp]: https://wasp-sweden.org
+[waraps]: https://wasp-sweden.org/research/research-arenas/wara-ps-public-safety
